@@ -13,6 +13,12 @@ Try `which python`
 2. `vim ~/.bashrc` and put in `source ~/.venv/bin/activate`
 3.  Veirfy the right python `which python` and try `pip freeze | wc -l`
 
-4.  ## Testing for Multi-Cloud
+## Testing for Multi-Cloud
 
-5.  *AWS Cloud Shell
+*AWS Cloud Shell
+
+## Using PyTest
+
+*Use library style: `python -m pytest -vv --cov=mylib testing/`
+*Run tests by keyword expressions: `python -m pytest -vv -k "search"`
+*To run a specific test within a module: `python -m pytest -vv testing/test_fruity.py::test_random_fruit`
