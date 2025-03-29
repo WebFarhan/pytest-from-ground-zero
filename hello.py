@@ -3,4 +3,4 @@ import fire
 from mylib.wiki import search_wiki
 
 if __name__ == '__main__':
-  fire.Fire(search_wiki)
+    fire.Fire(search_wiki)
